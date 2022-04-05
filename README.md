@@ -1,1 +1,3 @@
-# transcriber-and-translate
+# Transcriber and Translate
+A simple browser extension that can transcribe and translate audio from any web page. The extension works by capturing audio on the web page, then streams it to [Deepgram's Speech-To-Text API](https://developers.deepgram.com/api-reference/) for transcribing, and then to [Azure's translation service](https://azure.microsoft.com/en-us/services/cognitive-services/translator/) for a final translation into a target language. It is my entry to the [Deepgram + DEV hackathon](https://dev.to/devteam/join-us-for-a-new-kind-of-hackathon-on-dev-brought-to-you-by-deepgram-2bjd).
+
