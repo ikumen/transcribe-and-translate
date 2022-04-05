@@ -1,0 +1,39 @@
+{
+"manifest_version": 2,
+  "name": "Transcribe",
+  "version": "1.0",
+
+  "description": "Transcribe any audio playing on the current tab.",
+
+  "icons": {
+    "48": "icons/speaker-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "tabCapture"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/speaker-48.png",
+    "default_title": "Transcriber"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  }
+
+}
