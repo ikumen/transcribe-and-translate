@@ -6,7 +6,7 @@ const dgWrapperDiv = `<div id="___dgWrapper" style="top:0;${dgWrapperDivStyle}">
     <button id="___dgToBottom" style="margin:0 20px;font-size:12px;">bottom &darr;</button>
     <label for="___dgLang" style="font-size:12px;width:auto !important;">Lang:</label>
     <select id="___dgLang" style="font-size:12px;padding:0;margin:0;width:auto !important;">
-      <option value="en">English (default)</option>
+      <option value="en">English</option>
       <option value="fr">French</option>
       <option value="de">German</option>
       <option value="hu">Hungarian</option>
@@ -14,7 +14,7 @@ const dgWrapperDiv = `<div id="___dgWrapper" style="top:0;${dgWrapperDivStyle}">
       <option value="vi">Vietnamese</option>
     </select>
   </div>
-  <div id="___dgTranscript" style="resize:vertical;overflow-y:auto;height:60px;font-size:16px;line-height:1.15">
+  <div id="___dgTranscript" style="resize:vertical;overflow-y:auto;height:80px;font-size:18px;line-height:1.15">
     <span id="___dgPrevious" style="color:#999"></span>
     <span id="___dgCurrent" style="font-weight:bold"></span>
   </div>
